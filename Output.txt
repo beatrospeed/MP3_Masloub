@@ -1,0 +1,171 @@
+Data transfer from host to device and device to host
+
+The data transfer from device to host took : 0.153728 milli seconds for 100 x 100 elements
+
+The data transfer from host to device took : 0.197024 milli seconds for 100 x 100 elements
+
+The data transfer from device to host took : 0.226656 milli seconds for 200 x 200 elements
+
+The data transfer from host to device took : 0.225376 milli seconds for 200 x 200 elements
+
+The data transfer from device to host took : 0.813760 milli seconds for 500 x 500 elements
+
+The data transfer from host to device took : 0.819936 milli seconds for 500 x 500 elements
+
+The data transfer from device to host took : 2.994208 milli seconds for 1000 x 1000 elements
+
+The data transfer from host to device took : 2.797184 milli seconds for 1000 x 1000 elements
+
+The data transfer from device to host took : 6.440768 milli seconds for 1500 x 1500 elements
+
+The data transfer from host to device took : 6.166528 milli seconds for 1500 x 1500 elements
+
+The data transfer from device to host took : 62.244511 milli seconds for 5000 x 5000 elements
+
+The data transfer from host to device took : 54.003326 milli seconds for 5000 x 5000 elements
+
+
+ Part 2 : multiplication with 1 blocks
+
+100 x 100 matrix multiplication.
+The CPU took 12718.000000 microseconds to complete the computation.
+
+The GPU took 1826.751953 microseconds to complete the computation with one thread per element.
+
+Test PASSED
+
+200 x 200 matrix multiplication.
+The CPU took 53530.000000 microseconds to complete the computation.
+
+The GPU took 17247.871094 microseconds to complete the computation with one thread per element.
+
+Test PASSED
+
+500 x 500 matrix multiplication.
+The CPU took 1110553.000000 microseconds to complete the computation.
+
+The GPU took 270511.375000 microseconds to complete the computation with one thread per element.
+
+Test PASSED
+
+1000 x 1000 matrix multiplication.
+The CPU took 9886852.000000 microseconds to complete the computation.
+
+The GPU took 2656236.000000 microseconds to complete the computation with one thread per element.
+
+Test PASSED
+
+1500 x 1500 matrix multiplication.
+The CPU took 37118236.000000 microseconds to complete the computation.
+
+The GPU took 9041490.000000 microseconds to complete the computation with one thread per element.
+
+Test PASSED
+
+5000 x 5000 matrix multiplication.
+The CPU took 1914309120.000000 microseconds to complete the computation.
+
+The GPU took 767551040.000000 microseconds to complete the computation with one thread per element.
+
+Test PASSED
+
+Part 3: multiplication with 2 blocks
+
+100 x 100 matrix multiplication.
+The GPU took 445.984009 microseconds to complete the computation with one thread per element.
+
+200 x 200 matrix multiplication.
+The GPU took 3929.407959 microseconds to complete the computation with one thread per element.
+
+500 x 500 matrix multiplication.
+The GPU took 62527.007813 microseconds to complete the computation with one thread per element.
+
+1000 x 1000 matrix multiplication.
+The GPU took 659041.187500 microseconds to complete the computation with one thread per element.
+
+1500 x 1500 matrix multiplication.
+The GPU took 2335512.750000 microseconds to complete the computation with one thread per element.
+
+5000 x 5000 matrix multiplication.
+The GPU took 84763376.000000 microseconds to complete the computation with one thread per element.
+
+Part 3: multiplication with 4 blocks
+
+100 x 100 matrix multiplication.
+The GPU took 144.639999 microseconds to complete the computation with one thread per element.
+
+200 x 200 matrix multiplication.
+The GPU took 1012.384033 microseconds to complete the computation with one thread per element.
+
+500 x 500 matrix multiplication.
+The GPU took 16928.447266 microseconds to complete the computation with one thread per element.
+
+1000 x 1000 matrix multiplication.
+The GPU took 165563.000000 microseconds to complete the computation with one thread per element.
+
+1500 x 1500 matrix multiplication.
+The GPU took 584234.250000 microseconds to complete the computation with one thread per element.
+
+5000 x 5000 matrix multiplication.
+The GPU took 20572020.000000 microseconds to complete the computation with one thread per element.
+
+Part 3: multiplication with 10 blocks
+
+100 x 100 matrix multiplication.
+The GPU took 56.607998 microseconds to complete the computation with one thread per element.
+
+200 x 200 matrix multiplication.
+The GPU took 409.696014 microseconds to complete the computation with one thread per element.
+
+500 x 500 matrix multiplication.
+The GPU took 6375.008301 microseconds to complete the computation with one thread per element.
+
+1000 x 1000 matrix multiplication.
+The GPU took 53702.144531 microseconds to complete the computation with one thread per element.
+
+1500 x 1500 matrix multiplication.
+The GPU took 179341.312500 microseconds to complete the computation with one thread per element.
+
+5000 x 5000 matrix multiplication.
+The GPU took 6647112.000000 microseconds to complete the computation with one thread per element.
+
+Part 3: multiplication with 20 blocks
+
+100 x 100 matrix multiplication.
+The GPU took 55.776001 microseconds to complete the computation with one thread per element.
+
+200 x 200 matrix multiplication.
+The GPU took 405.631989 microseconds to complete the computation with one thread per element.
+
+500 x 500 matrix multiplication.
+The GPU took 6415.583984 microseconds to complete the computation with one thread per element.
+
+1000 x 1000 matrix multiplication.
+The GPU took 53733.726563 microseconds to complete the computation with one thread per element.
+
+1500 x 1500 matrix multiplication.
+The GPU took 178693.671875 microseconds to complete the computation with one thread per element.
+
+5000 x 5000 matrix multiplication.
+The GPU took 6622486.500000 microseconds to complete the computation with one thread per element.
+
+Part 3: multiplication with 25 blocks
+
+100 x 100 matrix multiplication.
+The GPU took 55.680000 microseconds to complete the computation with one thread per element.
+
+200 x 200 matrix multiplication.
+The GPU took 409.247986 microseconds to complete the computation with one thread per element.
+
+500 x 500 matrix multiplication.
+The GPU took 7165.344238 microseconds to complete the computation with one thread per element.
+
+1000 x 1000 matrix multiplication.
+The GPU took 67931.835938 microseconds to complete the computation with one thread per element.
+
+1500 x 1500 matrix multiplication.
+The GPU took 228365.656250 microseconds to complete the computation with one thread per element.
+
+5000 x 5000 matrix multiplication.
+The GPU took 8482234.000000 microseconds to complete the computation with one thread per element.
+
